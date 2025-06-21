@@ -1,0 +1,111 @@
+div.banner-1.row {
+    min-height: 566px;
+    background-color: #EBF2ED;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0px;
+}
+
+.banner-1.title {
+    text-align: left;
+    max-width: fit-content;
+}
+
+h1.banner-1{
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    max-width: fit-content;
+}
+
+h3.banner-1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h5.banner-1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    max-width: fit-content;
+}
+h4.banner-1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: fit-content;
+}
+
+button.banner-1 {
+    background-color: #36E15C;
+    color: #000;
+    width: 195px;
+    height: 64px;
+    margin-top: 24px;
+    border: none;
+}
+
+button.banner-1:hover {
+    background-color: #36E15C;
+    color: #000;
+}
+
+button.banner-1.btn.btn-primary:active {
+    background-color: #36E15C;
+}
+
+.banner-1-img-col.col {
+    max-width: fit-content;
+}
+
+h3.categories-title {
+    font-weight: 700;
+}
+
+h6.categories-title {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.categories-title.row {
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
+
+.categories-row.row {
+    justify-content: center;
+}
+
+.categories.col {
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.categories.hats-col.col {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shirts, .shorts {
+    height: 490px;
+}
+
+h3.best-sellers {
+    font-weight: 700;
+}
+
+h6.best-sellers {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.best-sellers.row {
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
