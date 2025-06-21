@@ -57,7 +57,7 @@ const Home = () => {
         <h6 className="best-sellers">get 'em while you can</h6>
       </Row>
       <Row className="home-products-row">
-        //future products
+        // future products
       </Row>
     </Container>
   );
