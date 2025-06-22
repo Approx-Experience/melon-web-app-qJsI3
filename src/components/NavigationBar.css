@@ -1,0 +1,116 @@
+.category.nav-link {
+    color: #000;
+    font-size: 14px;
+    &:hover {
+        color: #000;
+      }
+}
+
+.navigation-bar {
+    background-color: #FFECDA;
+}
+
+.bottom.navbar-light {
+    padding-top: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.logo-column.col {
+    padding-left: 24px;
+}
+
+.search-column.col {
+    min-width: 40%;
+}
+
+.links-column.col {
+    display: flex;
+    justify-content: end;
+}
+
+h1.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #E13636;
+    margin-bottom: 0px;
+}
+
+.header-logo.navbar-brand {
+    display: flex;
+    width: fit-content;
+}
+
+div.search-group.input-group {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 0px;
+    align-items: center;
+}
+
+a.search-button {
+    background-color: #FFECDA;
+    color: #484343;
+    max-height: 24px;
+    padding-left: 5px;
+}
+
+.search-bar.form-control {
+    padding-top: 4px;
+    background-color: #FFECDA;
+    color: #000;
+    border: none;
+    height: 32px;
+    &::-webkit-search-cancel-button{
+        filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(90deg);
+    }
+}
+
+.search-bar.form-control:focus {
+    background-color: #FFECDA; 
+    border: none;
+}
+
+.search-bar.form-control::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+
+p.login-link {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #000;
+}
+
+p.favorites-link {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #000;
+}
+
+p.cart-link {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #000;
+}
+
+img.search-svg {
+    width: 16.38px;
+    height: 16.39px;
+    fill: #000;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(335deg) brightness(104%) contrast(107%);
+}
+
+.account-svg, .favorites-svg, .cart-svg{
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(335deg) brightness(104%) contrast(107%);
+}
