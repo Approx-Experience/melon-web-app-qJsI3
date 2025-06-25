@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useLoaderData } from "react-router-dom";
 import DesktopBanner from "../components/DesktopBanner.jsx";
 import MobileBanner from "../components/MobileBanner.jsx";
+import ProductCard from "../components/ProductCard.jsx";
 import "./Home.css";
 
 const Home = () => {
 
-  const [windowDimension, setWindowDimension] = useState(null);
+    const { products } = useLoaderData();
+  
+    const [windowDimension, setWindowDimension] = useState(null);
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
@@ -18,6 +22,19 @@ const Home = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const productCards = products.map((product) => {
+    return (
+      <ProductCard
+        key={product.productId}
+        productId={product.productId}
+        title={product.title}
+        description={product.description}
+        image={product.image}
+        price={product.price}
+      />
+    );
+  });
 
   return (
     <>
@@ -61,6 +78,7 @@ const Home = () => {
         <h6 className="best-sellers">get 'em while you can</h6>
       </Row>
       <Row className="home-products-row">
+        {productCards}
       </Row>
     </Container>
     </>
