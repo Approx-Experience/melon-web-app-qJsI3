@@ -80,7 +80,8 @@ h6.categories-title {
 
 .categories-row.row {
     justify-content: center;
-    max-width: 100vw;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .categories.col {
@@ -114,13 +115,16 @@ h6.best-sellers {
 .best-sellers.row {
     margin-top: 46px;
     margin-bottom: 24px;
-    max-width: 100vw;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .home-products-row.row {
     justify-content: center;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 @media (max-width: 1300px) {
