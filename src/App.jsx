@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Root from "./Root.jsx";
 import Home from "./pages/Home.jsx";
-import AllProudcts from "./pages/AllProudcts.jsx";
+import AllProducts from "./pages/AllProducts.jsx";
 import axios from "axios";
 import "./App.css";
 
@@ -23,7 +23,7 @@ const router = createBrowserRouter(
         }}
       />
       <Route path="/browse"
-        element={<AllProudcts/>}
+        element={<AllProducts/>}
         loader={async () => {
           const res = await axios.get(`/api/products`)
           return { products: res.data}

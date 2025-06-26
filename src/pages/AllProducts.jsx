@@ -35,11 +35,11 @@ const AllProudcts = () => {
           <NavLink className='sidebar-category'>sale</NavLink>
         </Col>
         <Col className="products-col">
-          <Row xs={3} className="products-row">
+          <Row xs={2} lg={2} xl={3} className="products-row">
             {productCards}
           </Row>
         </Col>
-        <Col xs={{span: 2}} className="right-spacer-col"></Col>
+        <Col xs={{span: 1}} lg={{span: 1}} xl={{span: 2}} className="right-spacer-col"></Col>
       </Row>
     </Container>
   );
